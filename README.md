@@ -1,4 +1,4 @@
-Bu proje, **Web Geliştirme Laboratuvarı** kapsamında temel web teknolojilerini ve modern geliştirme araçlarını deneyimlemek amacıyla oluşturulmuştur.
+Bu proje, **Web Geliştirme Laboratuvarı** kapsamında modern web teknolojilerini ve versiyon kontrol sistemlerini deneyimlemek amacıyla oluşturulmuştur.
 
 ---
 
@@ -14,49 +14,48 @@ Bu proje, **Web Geliştirme Laboratuvarı** kapsamında temel web teknolojilerin
 
 ## 📖 Proje Hakkında
 
-Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve versiyon kontrol sistemlerini etkin kullanmayı öğrenmektir:
+Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve versiyon kontrol süreçlerini etkin yönetmeyi öğrenmektir:
 
-* ✅ **Geliştirme Ortamı:** Hızlı ve modern araçlarla proje başlatma.
-* ✅ **Git & GitHub:** Branch (dal) yapısını kullanarak düzenli kod yönetimi.
-* ✅ **UI Özelleştirme:** Kullanıcı arayüzü üzerinde kişiselleştirme çalışmaları.
+* ✅ **Geliştirme Ortamı:** Modern araçlarla hızlı proje yapılandırması.
+* ✅ **Git & GitHub:** Branch yapısı ve merge süreçlerinin yönetimi.
+* ✅ **Arayüz Çalışmaları:** Kullanıcı deneyimini iyileştiren UI özelleştirmeleri.
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
 
-* **React 18**
-* **TypeScript**
-* **Vite**
+* React 18
+* TypeScript
+* Vite
 
 ---
 
 ## 🌿 Branch Yapısı
 
-* `master`: Projenin ana ve stabil versiyonu.
-* `feature/personalize-ui`: Arayüz geliştirme ve kişiselleştirme çalışmalarının yapıldığı branch.
+* **master:** Projenin ana ve stabil versiyonu.
+* **feature/personalize-ui:** Arayüz geliştirme ve kişiselleştirme çalışmalarının yapıldığı branch.
 
 ---
 
 ## 🚀 Projeyi Çalıştırma
 
-Yerel ortamınızda projeyi ayağa kaldırmak için:
+1. Repoyu klonlayın:
+git clone <repo-link>
 
-1. **Repoyu klonlayın:**
-   ```bash
-   git clone <repo-link>
-Proje dizinine gidin:
-
-Bash
+2. Proje dizinine gidin:
 cd web-lab-hello
-Bağımlılıkları yükleyin:
 
-Bash
+3. Bağımlılıkları yükleyin:
 npm install
-Geliştirme sunucusunu başlatın:
 
-Bash
+4. Geliştirme sunucusunu başlatın:
 npm run dev
-📸 Ekran Görüntüsü
-Bu proje Doğukan Kalkan tarafından eğitim amaçlı hazırlanmıştır.
 
-images/screenshot.png
+---
+
+## 📸 Ekran Görüntüsü
+
+![Uygulama Ekran Görüntüsü](images/screenshot.png)
+
+---
+*Bu proje Doğukan Kalkan tarafından eğitim amaçlı hazırlanmıştır.*
