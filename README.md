@@ -51,4 +51,4 @@ npm run dev
 
 #LightHouse Ekran Görüntüsü
 
-![Uygulama Ekran Görüntüsü](images/LighHouse.png)
+![LightHouse Ekran Görüntüsü](images/LightHouse.png)
