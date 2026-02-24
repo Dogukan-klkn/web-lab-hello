@@ -10,6 +10,8 @@ function App() {
 <h2>LAB-1</h2>
 <p>Ad Soyad: [Doğukan Kalkan]</p>
 <p>Ogrenci No: [235542019]</p>
+<p>Bölüm: [Yazılım Mühendisliği]</p>
+<p>Feature Backend Developer </p>
 </div>
 )
 }
