@@ -47,10 +47,8 @@ npm run dev
 ```
 
 #Web Sitesi Ekran Görüntüsü
-(
-  images/WebPage.png
-)
+![Web Ekran Görüntüsü](images/WebPage.png)
 
-#Ligtouse Ekran Görüntüsü
+#LightHouse Ekran Görüntüsü
 
-(images/LightHouse.png)
+![Uygulama Ekran Görüntüsü](images/LighHouse.png)
