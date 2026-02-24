@@ -1,61 +1,55 @@
-Bu proje, **Web Geliştirme Laboratuvarı** kapsamında modern web teknolojilerini ve versiyon kontrol sistemlerini deneyimlemek amacıyla oluşturulmuştur.
+u proje, Web Geliştirme Laboratuvarı kapsamında **Semantik HTML5**, **Erişilebilirlik (a11y)** ve modern tasarım prensipleri dikkate alınarak geliştirilmiş bir kişisel portfolyo web uygulamasıdır.
 
 ---
 
-## 👤 Öğrenci Bilgileri
+## 👤 Geliştirici Bilgileri
 
-| Bilgi | Detay |
-| :--- | :--- |
-| **Ad Soyad** | Doğukan Kalkan |
-| **Öğrenci No** | 235542019 |
-| **Bölüm** | Yazılım Mühendisliği |
+* **Ad Soyad:** Doğukan Kalkan
+* **Öğrenci No:** 235542019
+* **Bölüm:** Yazılım Mühendisliği (3. Sınıf)
 
 ---
 
-## 📖 Proje Hakkında
+## ✨ Öne Çıkan Özellikler
 
-Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve versiyon kontrol süreçlerini etkin yönetmeyi öğrenmektir:
-
-* ✅ **Geliştirme Ortamı:** Modern araçlarla hızlı proje yapılandırması.
-* ✅ **Git & GitHub:** Branch yapısı ve merge süreçlerinin yönetimi.
-* ✅ **Arayüz Çalışmaları:** Kullanıcı deneyimini iyileştiren UI özelleştirmeleri.
+* **Semantik Yapı:** `<header>`, `<main>`, `<section>`, `<article>`, `<figure>` ve `<figcaption>` gibi doğru HTML5 etiket hiyerarşisi.
+* **Erişilebilirlik (a11y):** Ekran okuyucular ve klavye gezintisi için `aria-label`, doğru başlık hiyerarşisi (H1-H3) ve "Ana içeriğe atla" (skip-link) butonu.
+* **Doğrulamalı İletişim Formu:** HTML5 validasyon kurallarına (required, minLength, type="email") uygun çalışan, dinamik hata mesajlı form yapısı.
+* **Modern UI:** Responsive (mobil uyumlu), cihaz boyutlarına göre esneyen grid sistemi ve modern dark mode arayüz.
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
 
-* React 18
-* TypeScript
-* Vite
-
----
-
-## 🌿 Branch Yapısı
-
-* **master:** Projenin ana ve stabil versiyonu.
-* **feature/personalize-ui:** Arayüz geliştirme ve kişiselleştirme çalışmalarının yapıldığı branch.
+* **React 18**
+* **TypeScript**
+* **Vite**
+* **Saf CSS** (Flexbox, CSS Grid, Custom Variables)
 
 ---
 
 ## 🚀 Projeyi Çalıştırma
 
-1. Repoyu klonlayın:
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki komutları sırasıyla terminalinizde çalıştırın:
+
+```bash
+# Repoyu klonlayın
 git clone <repo-link>
 
-2. Proje dizinine gidin:
+# Proje dizinine girin
 cd web-lab-hello
 
-3. Bağımlılıkları yükleyin:
+# Bağımlılıkları yükleyin
 npm install
 
-4. Geliştirme sunucusunu başlatın:
+# Geliştirme sunucusunu başlatın
 npm run dev
 
----
+#Web Sitesi Ekran Görüntüsü
+(
+  images/WebPage.png
+)
 
-## 📸 Ekran Görüntüsü
+#Ligtouse Ekran Görüntüsü
 
-![Uygulama Ekran Görüntüsü](images/screenshot.png)
-
----
-*Bu proje Doğukan Kalkan tarafından eğitim amaçlı hazırlanmıştır.*
+(images/LightHouse.png)

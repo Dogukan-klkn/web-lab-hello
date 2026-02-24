@@ -7,7 +7,8 @@ function App() {
 
       <header className="site-header">
         <div className="container header-container">
-          <div className="logo">DK<span>.</span></div>
+          {/* DÜZELTME 1: Sayfanın ana başlığı (H1) eklendi */}
+          <h1 className="logo">DK<span>.</span></h1>
           <nav aria-label="Ana Menü">
             <ul className="nav-links">
               <li><a href="#hakkimda">Hakkımda</a></li>
@@ -107,13 +108,14 @@ function App() {
                 <div className="form-group">
                   <label htmlFor="ad-soyad">Ad Soyad:</label>
                   <input type="text" id="ad-soyad" name="ad-soyad" placeholder="Adınızı giriniz..." required minLength={3} />
-                  <span className="error-message" aria-live="polite">En az 3 karakter girmelisiniz.</span>
+                  {/* DÜZELTME 2: role="alert" eklendi */}
+                  <span className="error-message" aria-live="polite" role="alert">En az 3 karakter girmelisiniz.</span>
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="email">E-posta:</label>
                   <input type="email" id="email" name="email" placeholder="eposta@adresiniz.com" required />
-                  <span className="error-message" aria-live="polite">Geçerli bir e-posta adresi giriniz.</span>
+                  <span className="error-message" aria-live="polite" role="alert">Geçerli bir e-posta adresi giriniz.</span>
                 </div>
 
                 <div className="form-group">
@@ -124,13 +126,13 @@ function App() {
                     <option value="soru">Soru</option>
                     <option value="oneri">Öneri</option>
                   </select>
-                  <span className="error-message" aria-live="polite">Lütfen bir konu seçiniz.</span>
+                  <span className="error-message" aria-live="polite" role="alert">Lütfen bir konu seçiniz.</span>
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="mesaj">Mesajınız:</label>
                   <textarea id="mesaj" name="mesaj" rows={5} placeholder="Mesajınızı buraya yazabilirsiniz..." required minLength={10}></textarea>
-                  <span className="error-message" aria-live="polite">Lütfen en az 10 karakterlik bir mesaj yazınız.</span>
+                  <span className="error-message" aria-live="polite" role="alert">Lütfen en az 10 karakterlik bir mesaj yazınız.</span>
                 </div>
 
                 <button type="submit" className="btn-submit">Gönder</button>
