@@ -1,58 +1,62 @@
-📌 Web Lab Hello
-👤 Öğrenci Bilgileri
+Bu proje, **Web Geliştirme Laboratuvarı** kapsamında temel web teknolojilerini ve modern geliştirme araçlarını deneyimlemek amacıyla oluşturulmuştur.
 
-Ad Soyad: Doğukan Kalkan
+---
 
-Öğrenci No: 235542019
+## 👤 Öğrenci Bilgileri
 
-📖 Proje Hakkında
+| Bilgi | Detay |
+| :--- | :--- |
+| **Ad Soyad** | Doğukan Kalkan |
+| **Öğrenci No** | 235542019 |
+| **Bölüm** | Yazılım Mühendisliği |
 
-Bu proje, web geliştirme laboratuvarı kapsamında oluşturulmuştur.
-Temel amaç:
+---
 
-Basit bir web uygulaması geliştirmek
+## 📖 Proje Hakkında
 
-Git ve GitHub kullanımını öğrenmek
+Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve versiyon kontrol sistemlerini etkin kullanmayı öğrenmektir:
 
-Branch mantığını uygulamak
+* ✅ **Geliştirme Ortamı:** Hızlı ve modern araçlarla proje başlatma.
+* ✅ **Git & GitHub:** Branch (dal) yapısını kullanarak düzenli kod yönetimi.
+* ✅ **UI Özelleştirme:** Kullanıcı arayüzü üzerinde kişiselleştirme çalışmaları.
 
-Versiyon kontrol sistemi pratiği yapmak
+---
 
-🛠 Kullanılan Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 
-HTML
+* **React 18**
+* **TypeScript**
+* **Vite**
 
-CSS
+---
 
-JavaScript
+## 🌿 Branch Yapısı
 
-Git
+* `master`: Projenin ana ve stabil versiyonu.
+* `feature/personalize-ui`: Arayüz geliştirme ve kişiselleştirme çalışmalarının yapıldığı branch.
 
-GitHub
+---
 
-🌿 Branch Yapısı
+## 🚀 Projeyi Çalıştırma
 
-Projede aşağıdaki branch yapısı kullanılmıştır:
+Yerel ortamınızda projeyi ayağa kaldırmak için:
 
-master → Ana proje branch'i
+1. **Repoyu klonlayın:**
+   ```bash
+   git clone <repo-link>
+Proje dizinine gidin:
 
-feature/personalize-ui → Arayüz kişiselleştirme çalışmaları
-
-🚀 Projeyi Çalıştırma
-
-# 1. Repoyu klonla
-git clone <repo-link>
-
-# 2. Klasöre gir
+Bash
 cd web-lab-hello
+Bağımlılıkları yükleyin:
 
-# 3. Bağımlılıkları yükle
+Bash
 npm install
+Geliştirme sunucusunu başlatın:
 
-# 4. Development server başlat
+Bash
 npm run dev
+📸 Ekran Görüntüsü
+Bu proje Doğukan Kalkan tarafından eğitim amaçlı hazırlanmıştır.
 
-
-
-## Ekran Goruntusu
-![Ekran Görüntüsü](images/screenshot.png)
+images/screenshot.png
