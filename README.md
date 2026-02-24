@@ -44,6 +44,7 @@ npm install
 
 # Geliştirme sunucusunu başlatın
 npm run dev
+```
 
 #Web Sitesi Ekran Görüntüsü
 (
