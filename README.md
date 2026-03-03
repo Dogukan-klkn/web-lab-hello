@@ -1,4 +1,6 @@
-Bu proje, **Web Geliştirme Laboratuvarı** kapsamında modern web teknolojilerini ve versiyon kontrol sistemlerini deneyimlemek amacıyla oluşturulmuştur.
+# 🌐 Web Tasarımı ve Programlama — LAB-3
+
+Bu proje, **Web Geliştirme Laboratuvarı LAB-3** kapsamında; CSS Design Tokens, Fluid Typography, Flexbox, CSS Grid ve Mobile-First Responsive Design konularını uygulamak amacıyla geliştirilmiştir.
 
 ---
 
@@ -14,11 +16,16 @@ Bu proje, **Web Geliştirme Laboratuvarı** kapsamında modern web teknolojileri
 
 ## 📖 Proje Hakkında
 
-Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve versiyon kontrol süreçlerini etkin yönetmeyi öğrenmektir:
+Bu projede aşağıdaki konular uygulamalı olarak gerçekleştirilmiştir:
 
-* ✅ **Geliştirme Ortamı:** Modern araçlarla hızlı proje yapılandırması.
-* ✅ **Git & GitHub:** Branch yapısı ve merge süreçlerinin yönetimi.
-* ✅ **Arayüz Çalışmaları:** Kullanıcı deneyimini iyileştiren UI özelleştirmeleri.
+* ✅ **Design Tokens** — `src/styles/tokens.css` dosyasında `:root` içinde CSS değişkenleri (renk, boşluk, font, gölge)
+* ✅ **Fluid Typography** — `clamp()` fonksiyonu ile media query yazmadan duyarlı font boyutları
+* ✅ **Flexbox Navigasyon** — Mobilde dikey, tablette yatay responsive header & nav
+* ✅ **CSS Grid Proje Kartları** — Mobilde 1 sütun → Tablette 2 → Masaüstünde 3 sütun
+* ✅ **Mobile-First yaklaşım** — Tüm stiller küçük ekrandan büyüğe doğru `min-width` ile genişliyor
+* ✅ **Beceri Etiketleri (Toolbar)** — `flex-wrap` ile sarmalanan etiket listesi
+* ✅ **İletişim Formu** — Responsive, erişilebilir form yapısı
+* ✅ **Focus / A11y** — `:focus-visible` ile tab gezinme korunuyor
 
 ---
 
@@ -27,35 +34,71 @@ Projenin temel amacı, modern bir web geliştirme ortamında çalışmayı ve ve
 * React 18
 * TypeScript
 * Vite
+* Vanilla CSS (Design Tokens + Flexbox + Grid)
 
 ---
 
 ## 🌿 Branch Yapısı
 
-* **master:** Projenin ana ve stabil versiyonu.
-* **feature/personalize-ui:** Arayüz geliştirme ve kişiselleştirme çalışmalarının yapıldığı branch.
+* **main** — Projenin ana ve stabil versiyonu
+* **feature/lab3-responsive-layout** — LAB-3 responsive tasarım çalışmaları
+
+---
+
+## 📸 Ekran Görüntüleri
+
+### 📱 Mobil (375px)
+![Mobil görünüm](screenshots/screenshot-mobile.png)
+
+### 📟 Tablet (768px)
+![Tablet görünüm](screenshots/screenshot-tablet.png)
+
+### 🖥️ Masaüstü (1280px)
+![Masaüstü görünüm](screenshots/screenshot-desktop.png)
 
 ---
 
 ## 🚀 Projeyi Çalıştırma
 
 1. Repoyu klonlayın:
-git clone <repo-link>
+```bash
+git clone https://github.com/Dogukan-klkn/web-lab-hello.git
+```
 
-2. Proje dizinine gidin:
-cd web-lab-hello
+2. LAB-3 branchine geçin:
+```bash
+git checkout feature/lab3-responsive-layout
+```
 
 3. Bağımlılıkları yükleyin:
+```bash
 npm install
+```
 
 4. Geliştirme sunucusunu başlatın:
+```bash
 npm run dev
+```
 
 ---
 
-## 📸 Ekran Görüntüsü
+## � Proje Yapısı
 
-![Uygulama Ekran Görüntüsü](images/screenshot.png)
+```
+src/
+├── styles/
+│   └── tokens.css        # CSS Design Tokens (:root değişkenleri)
+├── App.tsx               # Ana bileşen (Header, Hakkımda, Projeler, İletişim)
+├── App.css               # Responsive layout stilleri (Mobile-First)
+├── index.css             # Global reset ve temel stiller
+└── main.tsx              # Uygulama giriş noktası
+screenshots/
+├── screenshot-mobile.png
+├── screenshot-tablet.png
+└── screenshot-desktop.png
+CSS-KARARLARI.md          # CSS tasarım kararları notu
+```
 
 ---
+
 *Bu proje Doğukan Kalkan tarafından eğitim amaçlı hazırlanmıştır.*
