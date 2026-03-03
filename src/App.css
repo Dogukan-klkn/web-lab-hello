@@ -1,0 +1,128 @@
+/* ===== GENEL LAYOUT ===== */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+}
+
+section {
+  margin-bottom: var(--space-3xl);
+}
+
+/* ===== HEADER & NAVIGASYON ===== */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: var(--text-xl);
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: var(--space-sm);
+  align-items: center;
+}
+
+/* ===== TOOLBAR (BECERİ ETİKETLERİ) ===== */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  margin-top: var(--space-md);
+}
+
+.skill-tags li {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.skill-tags li:hover {
+  background-color: var(--color-secondary);
+}
+
+/* ===== PROJE KARTLARI (GRID) ===== */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-normal), transform var(--transition-fast);
+}
+
+.project-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.project-card img {
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.project-card .skill-tags {
+  margin-top: auto;
+  /* Itilişim ve etiketleri alta hizalar */
+}
+
+
+/* ===== MEDIA QUERIES (MOBILE-FIRST) ===== */
+
+/* Tablet (min-width: 640px) */
+@media (min-width: 640px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: var(--space-md);
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+}
